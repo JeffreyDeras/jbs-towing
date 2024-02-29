@@ -950,11 +950,11 @@
 
 .abs-button {
 	position: absolute;
-	bottom: 70px;
+	bottom: 80px;
 	font-family: "Roboto";
 	font-weight: 700;
 	color: white;
-	font-size: 40px;
+	font-size: 35px;
 	text-decoration: none;
 	right: 130px;
 }
@@ -2582,7 +2582,8 @@ footer {
 	font-size: 12px;
 	margin-top: 25px;
 	font-family: 'Roboto', sans-serif;
-	margin-left: 75px;
+	margin-left: 7px;
+	text-align: center;
 }
 
 .footer-info h6 {
@@ -2590,7 +2591,7 @@ footer {
 	color: #fff;
 	font-size: 18px;
 	font-weight: 600;
-	text-align: right;
+	text-align: center;
 }
 
 .footer-info h6:hover {
@@ -2600,11 +2601,14 @@ footer {
 }
 
 .footer-info .social-icon {
-	padding-left: 100px;
+	padding-left: 1px;
 	margin-bottom: 10px;
 	display: flex;
-
+	align-items: center;
+	justify-content: center;
 }
+
+
 
 .footer-info .social-icon:hover {
 	scale: 1.3;
@@ -3531,6 +3535,7 @@ textarea:focus {
 		padding: 10px;
 		height: 25px;
 		right: 70px;
+		bottom: 50px;
 		
 	}
 
