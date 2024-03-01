@@ -2352,25 +2352,28 @@ textarea {
 
 
 .warranty-banner {
-	margin-top: 0;
-	margin-bottom: 0;
-	background-color: #333;
-	padding-top: 0;
-	padding-bottom: 0;
-	border-radius: 0;
+
 	background-repeat: no-repeat;
 	background-size: cover;
+
 	position: relative;
 	background-image: url(../img/car-banner.jpg);
 	position: relative;
 	padding-right: 30px;
-
-
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
+
+.warranty-banner img{
+	border-radius: 10px;
+}
+
 
 .right-badge {
 	position: relative;
 	padding-left: 0;
+	padding-bottom: 0;
 }
 
 .right-badge .badge {
@@ -2456,11 +2459,8 @@ textarea {
 
 
 .warranty-banner img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 0;
-	padding-top: 0;
+	width: 100%;
+	align-self: center;
 }
 
 
@@ -3502,6 +3502,8 @@ textarea:focus {
 		margin-top: 22px;
 	}
 
+	
+
 	.warranty-banner h3 {
 		font-size: 16px;
 	}
@@ -3674,13 +3676,12 @@ textarea:focus {
 		font-size: 24px;
 	}
 
-	.warranty-banner {
-		padding-right: 0;
+	.warranty-banner img {
+		padding-left: 50px;
 	}
 
 	.warranty-banner .btn-10 span {
 		font-size: 10px;
-		width: 100%;
 	}
 
 	.warranty-banner .btn-10 {
