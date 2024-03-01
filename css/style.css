@@ -1006,7 +1006,7 @@
 
 
 #home-about .first-info h3 {
-	font-weight: 400;
+	font-weight: 800;
 	color: #292972;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -1015,16 +1015,17 @@
 	width: 100%;
 	margin-bottom: 5px;
 	margin-top: 30px;
-	font-size: 22px;
+	font-size: 50px;
 
 }
 
 
 #home-about .first-info h2 {
-	font-size: 30px;
-	font-weight: 500;
+	font-size: 40px;
+	font-weight: 800;
 	text-transform: uppercase;
 	color: #ec1c24;
+	text-decoration: underline;
 
 	text-align: center;
 	padding-bottom: 5px;
@@ -1057,7 +1058,7 @@
 
 #home-about .first-info p {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 	color: #4b5b68;
 	font-size: 16px;
 	text-align: left;
@@ -1096,8 +1097,8 @@
 	margin-left: 50px;
 	border-radius: 10px;
 	width: 100%;
-	height: auto;
-	margin-top: 30px;
+	height: 700px;
+	margin-top: 60px;
 	margin-bottom: 30px;
 	margin-right: 10px;
 	float: left;
@@ -1631,13 +1632,20 @@ textarea {
 	bottom: 80px;
 
 	position: absolute;
-	right: 54px;
-	bottom: 95px;
+	right: 55px;
+	bottom: 125px;
 	font-family: "Roboto";
-	font-weight: bold;
+	font-weight: 1000;
 	color: white;
-	font-size: 18px;
+	font-size: 25px;
 	text-decoration: none;
+}
+
+.contact-info h6 a:hover{
+	transform: scale(1.1);
+	transition: ease-in-out 1.5s;
+	text-decoration: underline;
+
 }
 
 .contact-info img {
@@ -2134,6 +2142,11 @@ textarea {
 	margin-right: auto;
 }
 
+#about-services img {
+	border-radius: 10px;
+	box-shadow: #000;
+}
+
 
 #about-services .about-quote-5 {
 	font-weight: 600;
@@ -2365,7 +2378,7 @@ textarea {
 	justify-content: center;
 }
 
-.warranty-banner img{
+.warranty-banner img {
 	border-radius: 10px;
 }
 
@@ -2645,6 +2658,7 @@ footer {
 /* pawing services*/
 .banner-cover-top .top-img {
 	left: 15px;
+	
 }
 
 .top-img img {
@@ -2652,24 +2666,20 @@ footer {
 }
 
 .banner-cover-top {
-	padding-bottom: 70px;
-	margin-top: 80px;
-	background-color: #29275c;
 
+	background-color: #29275c;
 	width: 100%;
 	background-size: cover;
 	background-position: center top;
 	position: relative;
-	height: 300px;
 }
 
 .banner-cover-top .text-headline h2 span {
-	font-size: 50px;
+	font-size: 25px;
 	align-items: center;
 	font-weight: 700;
 	margin-top: 5px;
 	margin-bottom: 4px;
-	text-align: left;
 	color: white;
 	font-family: 'Mulish', sans-serif;
 	width: 100%;
@@ -2679,11 +2689,10 @@ footer {
 
 
 .banner-cover-top .text-headline h6 {
-	font-size: 16px;
+	font-size: 14px;
 	color: white;
 	font-family: 'Mulish', sans-serif;
 	text-align: left;
-
 	font-weight: 600;
 
 }
@@ -2831,10 +2840,15 @@ footer {
 	border-radius: 10px;
 }
 
+.testimonial-heading h1:hover {
+	transform: scale(1.1);
+	transition: ease-in-out 1.0s;
+}
+
 .testimonial-heading span {
 	font-size: 1.8rem;
 	color: #252525;
-	margin-top: 80px;
+	margin-top: 0px;
 	margin-bottom: 10px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -2858,6 +2872,7 @@ footer {
 	margin: 15px;
 	cursor: pointer;
 }
+
 
 .profile-img {
 	width: 50px;
@@ -3283,7 +3298,7 @@ textarea:focus {
 	}
 
 	.banner-cover-top .text-headline h2 span {
-		font-size: 23px;
+		font-size: 8px;
 	}
 
 	#brooklyn-services {
@@ -3406,10 +3421,11 @@ textarea:focus {
 	}
 
 	.banner-cover-top .top-img {
-		padding-right: 0;
-		display: none;
+		padding-right: 0px;
+		border-radius: 10px;
 	}
 
+	
 	#brooklyn-services .left-brooklyn p {
 		font-size: 15px;
 	}
@@ -3488,7 +3504,8 @@ textarea:focus {
 	}
 
 	#home-section {
-		background-image: url(/img/trucks/Banner-principal-Mobile.webp);
+		background-image: url(/img/trucks/Banner-principal-Mobile.jpg);
+		width: 100%;
 	}
 
 	.warranty-banner h2 {
@@ -3502,7 +3519,7 @@ textarea:focus {
 		margin-top: 22px;
 	}
 
-	
+
 
 	.warranty-banner h3 {
 		font-size: 16px;
@@ -3624,8 +3641,7 @@ textarea:focus {
 
 	#home-section {
 		display: block;
-		background-image: url(/img/trucks/jbs-2.jpg);
-		background-position: right;
+		background-image: url(/img/trucks/Banner-principal-Mobile.jpg);
 		height: 310px;
 	}
 
@@ -3689,11 +3705,12 @@ textarea:focus {
 	}
 
 	.banner-cover-top .text-headline {
-		padding-left: 15px;
+		padding-left: 10px;
+		text-align: center;
 	}
 
 	.banner-cover-top .text-headline h2 span {
-		font-size: 22px;
+		font-size: 14px;
 	}
 
 	.banner-cover-top .top-img {
