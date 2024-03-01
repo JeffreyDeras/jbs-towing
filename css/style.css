@@ -2417,7 +2417,7 @@ textarea {
 	font-weight: 700;
 	color: white;
 	background-color: #ec1c24;
-	font-size: 25px;
+	font-size: 20px;
 	text-align: center;
 	letter-spacing: 1px;
 	margin-top: 45px;
@@ -3624,7 +3624,7 @@ textarea:focus {
 
 	#home-section {
 		display: block;
-		background-image: url(/img/trucks/Banner-principal-Mobile.webp);
+		background-image: url(/img/trucks/jbs-2.jpg);
 		background-position: right;
 		height: 310px;
 	}
