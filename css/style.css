@@ -65,6 +65,10 @@
 	padding-right: 20px;
 }
 
+.btn-call a {
+	color: white;
+}
+
 .btn-call:hover {
 	scale: 1.1;
 	color: #ec1c24;
@@ -821,9 +825,13 @@
 
 
 #home-section {
+	display: block;
 	background-image: url(../img/trucks/towing-home-banner.jpg);
 	width: 100%;
-	height: 520px;
+	max-width: 100%;
+	min-width: 100%;
+	height: 500px;
+
 	background-size: cover;
 	position: relative;
 }
@@ -950,13 +958,13 @@
 
 .abs-button {
 	position: absolute;
-	bottom: 80px;
+	bottom: 17%;
 	font-family: "Roboto";
 	font-weight: 700;
 	color: white;
 	font-size: 35px;
 	text-decoration: none;
-	right: 130px;
+	right: 5%;
 }
 
 .abs-button .fa {
@@ -1114,18 +1122,8 @@
 }
 
 #section-services .left-one {
-	padding-bottom: 20px;
-	margin-bottom: 10px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 50px;
-	padding-bottom: 50px;
 	background-color: #292972;
-	position: sticky;
 	border-radius: 10px;
-	align-items: center;
-	justify-content: center;
-	display: block;
 
 }
 
@@ -1166,7 +1164,7 @@
 #section-services .left-one p {
 	font-weight: 400;
 	color: white;
-	font-size: 16px;
+	font-size: 12px;
 	text-align: left;
 	margin-top: 10px;
 	font-family: 'Roboto', sans-serif;
@@ -1195,7 +1193,7 @@
 	background-color: #ec1c24;
 	font-size: 20px;
 	text-align: center;
-	margin-top: 0px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	padding-bottom: 0;
 	font-family: 'Roboto', sans-serif;
@@ -1214,7 +1212,6 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 720px;
 	border-radius: 10px;
 }
 
@@ -3143,6 +3140,8 @@ textarea:focus {
 		margin-left: auto;
 		margin-right: auto;
 		width: 100%;
+		margin-bottom: 20px;
+		margin-top: 20px;
 	}
 
 	#section-services .left-one .hook {
@@ -3157,7 +3156,9 @@ textarea:focus {
 
 	#section-services .second-img {
 		display: block;
-		position: sticky;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
 	}
 
 	.warranty-banner .btn-10 {
@@ -3425,7 +3426,6 @@ textarea:focus {
 	}
 
 
-
 	#section-services .left-one .t-1 {
 		font-size: 25px;
 	}
@@ -3470,7 +3470,7 @@ textarea:focus {
 		font-size: 16px;
 	}
 
-	
+
 	#home-section .text-area h3 {
 		font-family: "Roboto";
 		font-weight: 300;
@@ -3486,9 +3486,9 @@ textarea:focus {
 		padding: 10px;
 		text-align: center;
 	}
-	
-	#home-section{
-		background-image:url(/img/trucks/Banner\ prueba.jpg);
+
+	#home-section {
+		background-image: url(/img/trucks/Banner-principal-Mobile.webp);
 	}
 
 	.warranty-banner h2 {
@@ -3529,14 +3529,14 @@ textarea:focus {
 		margin-bottom: 30px;
 	}
 
-	.abs-button{
+	.abs-button {
 		font-size: 20px;
 		color: white;
 		padding: 10px;
 		height: 25px;
 		right: 70px;
 		bottom: 50px;
-		
+
 	}
 
 
@@ -3621,12 +3621,12 @@ textarea:focus {
 	}
 
 	#home-section {
-		background-image: url(/img/trucks/Banner\ prueba.jpg);
-		width: 100%;
+		display: block;
+		background-image: url(/img/trucks/Banner-principal-Mobile.webp);
 		background-position: right;
-		height: 310px;		
+		height: 310px;
 	}
-	
+
 
 	#home-section .text-area h3 {
 		font-size: 19px;
