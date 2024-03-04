@@ -22,9 +22,9 @@
 .main-navigation .logo-header {
 	display: block;
 	float: left;
-	width: 350px;
-	height: 55px;
-	background: url(../img/jbslogo_resized.png) 0 0 no-repeat;
+	width: 375px;
+	height: 70px;
+	background: url(../img/trucks/Logo.png) 0 0 no-repeat;
 	margin-right: 0 !important;
 	margin-top: 15px;
 	font-family: 'Roboto', sans-serif;
@@ -39,8 +39,6 @@
 	padding-left: 0;
 	padding-right: 0;
 	padding-top: 0;
-
-
 }
 
 .main-navigation .nav-list .nav-link {
@@ -48,10 +46,10 @@
 	font-weight: 600;
 	color: #292972;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 12px;
 	letter-spacing: 1px !important;
 	margin-right: 5px;
-	margin-top: 10px;
+	margin-top: 25px;
 	text-align: center;
 }
 
@@ -137,7 +135,9 @@
 .main-navigation .nav-list .nav-link:hover {
 	cursor: pointer;
 	color: #ec1c24;
-	transform: scale(0.9);
+	transform: scale(1.2);
+	transition: ease-in-out 1.1s;
+	text-decoration: underline;
 }
 
 .nav-list .nav-item .btn-nav-book:hover {
@@ -825,23 +825,23 @@
 
 
 #home-section {
-	display: block;
-	background-image: url(../img/trucks/towing-home-banner.jpg);
 	width: 100%;
-	max-width: 100%;
-	min-width: 100%;
-	height: 500px;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding-right: 250px;	
+}
 
-	background-size: cover;
-	position: relative;
+#home-section img{
+	border-radius: 10px;
+	position:relative;
+
 }
 
 
-#home-section .main-text {}
+
 
 .right-box {
 	display: block;
-	float: right;
 }
 
 .process-steps {
@@ -958,13 +958,13 @@
 
 .abs-button {
 	position: absolute;
-	bottom: 17%;
+	bottom: 19%;
 	font-family: "Roboto";
 	font-weight: 700;
 	color: white;
 	font-size: 35px;
 	text-decoration: none;
-	right: 5%;
+	left: 09%;
 }
 
 .abs-button .fa {
@@ -1367,7 +1367,7 @@
 	margin-bottom: 40px;
 }
 
-.map iframe{
+.map iframe {
 	border-radius: 10px;
 	width: 100%;
 }
@@ -1638,16 +1638,16 @@ textarea {
 	bottom: 80px;
 
 	position: absolute;
-	right: 55px;
-	bottom: 125px;
+	right: 18%;
+	bottom: 40%;
 	font-family: "Roboto";
 	font-weight: 1000;
 	color: white;
-	font-size: 25px;
+	font-size: 30px;
 	text-decoration: none;
 }
 
-.contact-info h6 a:hover{
+.contact-info h6 a:hover {
 	transform: scale(1.1);
 	transition: ease-in-out 1.5s;
 	text-decoration: underline;
@@ -1661,17 +1661,18 @@ textarea {
 	margin-bottom: 20px;
 }
 
-.contact-img{
+.contact-img {
 	display: flex;
 	align-items: center;
 	margin-bottom: 10px;
 	justify-content: center;
-	padding: 5px ;
+	padding: 5px;
 }
 
-.contact-img img{
-	width: 100%;
+.contact-img img {
+	width: 50%;
 	border-radius: 20px;
+	margin-bottom: 100px;
 
 }
 
@@ -2686,13 +2687,13 @@ footer {
 	padding-right: 0;
 	border: 10px solid white;
 	border-radius: 10px;
-	
+
 }
 
 .top-img img {
 	width: 25%;
 	border-radius: 10px;
-	
+
 }
 
 .banner-cover-top {
@@ -2730,7 +2731,7 @@ footer {
 
 
 .banner-cover-top .text-headline {
-	background-color: transparent;	
+	background-color: transparent;
 	padding-top: 15px;
 	padding-left: 80px;
 }
@@ -2805,46 +2806,41 @@ footer {
 /* icons-banner*/
 
 .icons-banner {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	
-
+	padding-top: 30px;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
-	background-image: url(../img/icons-banner-bck.jpg);
+	background-color: #edf1f3;
 	background-repeat: no-repeat;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 	border-radius: 10px;
-	border: solid 1px rgb(217, 207, 207);
+	border: solid 2px white;
 }
 
 .location-features img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70px;
-	height: 70px;
+	width: 175px;
+	height: 175px;
 }
 
 .location-features h5 {
-	color: #232323;
+	color: white;
 	font-size: 14px;
 	letter-spacing: 0;
 	line-height: 22px;
 	margin: 5px 0 5px;
 	font-family: 'Mulish', sans-serif;
-	font-weight: 600;
+	font-weight: 900;
 	text-align: center;
 }
 
 .location-features {
-	margin-right: 20px;
-	margin-bottom: 5px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	border: 1px solid black;
-	border-radius: 4px;
+	margin-right: 28px;
+	margin-bottom: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 
@@ -2997,7 +2993,7 @@ footer {
 }
 
 .container {
-	max-width: 900px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -3460,7 +3456,7 @@ textarea:focus {
 		border-radius: 10px;
 	}
 
-	
+
 	#brooklyn-services .left-brooklyn p {
 		font-size: 15px;
 	}
@@ -3538,7 +3534,7 @@ textarea:focus {
 		text-align: center;
 	}
 
-	
+
 	.warranty-banner h2 {
 		font-size: 21px;
 		font-weight: 700;
@@ -3579,13 +3575,17 @@ textarea:focus {
 		margin-bottom: 30px;
 	}
 
+	.contact-img img{
+		width: 100%;
+	}
+
 	.abs-button {
-		font-size: 20px;
+		font-size:35px;
 		color: white;
 		padding: 10px;
 		height: 25px;
-		right: 70px;
-		bottom: 50px;
+		left: 20%;
+		bottom: 25%;
 
 	}
 
@@ -3670,7 +3670,7 @@ textarea:focus {
 		font-size: 14px;
 	}
 
-	
+
 	#home-section .text-area h3 {
 		font-size: 19px;
 	}
