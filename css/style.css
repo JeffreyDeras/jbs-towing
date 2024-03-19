@@ -3239,6 +3239,23 @@ textarea:focus {
 
 @media(max-width:736px) {
 
+	.abs-button {
+		position: absolute;
+		bottom: 35%;
+		font-family: "Roboto";
+		font-weight: 700;
+		color: white;
+		font-size: 30px;
+		text-decoration: none;
+		left: 14%;
+	}
+
+
+
+
+
+
+
 	#relato .second-video video {
 		width: 100%;
 		display: block;
@@ -3310,6 +3327,17 @@ textarea:focus {
 	}
 }
 
+.abs-button {
+	position: absolute;
+	bottom: 35%;
+	font-family: "Roboto";
+	font-weight: 700;
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	left: 14%;
+}
+
 @media (max-width: 790px) {
 	.testimonial-box {
 		width: 100%;
@@ -3318,12 +3346,34 @@ textarea:focus {
 	.testimonial-heading h1 {
 		font-size: 1.45rem;
 	}
+
+	.abs-button {
+		position: absolute;
+		bottom: 35%;
+		font-family: "Roboto";
+		font-weight: 700;
+		color: #292972;
+		font-size: 30px;
+		text-decoration: none;
+		left: 14%;
+	}
 }
 
 @media (max-width:340px) {
 	.box-top {
 		flex-wrap: wrap;
 		margin-bottom: 10px;
+	}
+
+	.abs-button {
+		position: absolute;
+		bottom: 35%;
+		font-family: "Roboto";
+		font-weight: 700;
+		color: #292972;
+		font-size: 30px;
+		text-decoration: none;
+		left: 14%;
 	}
 
 	.reviews {
